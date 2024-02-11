@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* 
+=====================
+Global Styles  
+=====================
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary color shades */
+  --color-primary-1: #9e8bd8;
+  --color-primary-2: #c2a6ff;
+  --color-primary-3: #8264c8;
+  --color-primary-4: #744fc0;
+  --color-primary-5: #6739b7;
+  --color-primary-6: #59309f;
+  --color-primary-7: #4b2887;
+  --color-primary-8: #3d1f70;
+  --color-primary-9: #30175a;
+  --color-primary-10: #231045;
+
+  /* Secondary color shades */
+  --color-secondary-1: #90dcec;
+  --color-secondary-2: #7ad6e8;
+  --color-secondary-3: #62d0e5;
+  --color-secondary-4: #44c9e2;
+  --color-secondary-5: #07c3de;
+  --color-secondary-6: #05a9c1;
+  --color-secondary-7: #0490a5;
+  --color-secondary-8: #027889;
+  --color-secondary-9: #02606f;
+  --color-secondary-10: #014a55;
+
+  /* Grey color shades */
+  --color-grey-1: #7d7d7d;
+  --color-grey-2: #696969;
+  --color-grey-3: #565656;
+  --color-grey-4: #444444;
+  --color-grey-5: #323232;
+  --color-grey-6: #2a2a2a;
+  --color-grey-7: #222222;
+  --color-grey-8: #1b1b1b;
+  --color-grey-9: #141414;
+  --color-grey-10: #0d0d0d;
+
+  /* White color */
+  --color-white: #fff;
+
+  /* Black color */
+  --color-black: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* 
+=====================
+Header 
+===================== 
+*/
+
+.header-center {
+  padding: 0.8rem 0;
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.navbar {
+  flex-basis: calc(100% - 25rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+  transition: all 0.2s ease-out;
+}
+
+.navbar-link:hover {
+  color: var(--color-primary-5);
+}
