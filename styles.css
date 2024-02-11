@@ -111,3 +111,149 @@ Header
 .navbar-link:hover {
   color: var(--color-primary-5);
 }
+
+/* 
+=====================
+Hero 
+=====================
+*/
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner-logo {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+
+.hero-banner-info {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 55rem;
+}
+
+.hero-banner-btn {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1.2rem 5rem;
+  border-radius: 5rem;
+  color: var(--color-white);
+  background: transparent;
+}
+
+/* Hero Banner 1 */
+.hero-banner-1-logo {
+  width: 6rem;
+}
+
+.hero-banner-1-para {
+  color: #017c07;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-banner-1-heading {
+  color: #017c07;
+  font-size: 5rem;
+}
+
+.hero-banner-1-btn {
+  background-color: #0073d8;
+}
+
+/* Hero Banner 2 */
+.hero-banner-2-price-text span:nth-child(1) {
+  color: #b7b0cb;
+  font-size: 4rem;
+  text-decoration: line-through;
+  margin-right: 1rem;
+}
+
+.hero-banner-2-price-text span:nth-child(2) {
+  color: var(--color-primary-5);
+  font-size: 5.5rem;
+}
+
+.hero-banner-2-heading {
+  color: var(--color-primary-7);
+  font-size: 3.8rem;
+}
+
+.hero-banner-2-para {
+  color: var(--color-primary-6);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.hero-banner-2-btn {
+  background-color: var(--color-primary-5);
+}
+
+/* Hero Banner 3 */
+.hero-banner-3-logo {
+  width: 25rem;
+}
+
+.hero-banner-3-heading {
+  color: var(--color-white);
+  font-size: 5rem;
+}
+
+.hero-banner-3-para {
+  color: var(--color-white);
+  font-size: 3rem;
+}
+
+.hero-banner-3-btn {
+  background-color: #17c55f;
+}
+
+/* Hero Banner 4 */
+.hero-banner-4-heading {
+  color: var(--color-white);
+  font-size: 4.5rem;
+}
+
+.hero-banner-4-para {
+  color: var(--color-primary-7);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero-banner-4-btn {
+  background-color: var(--color-primary-5);
+}
+
+/* Hero Banner 5 */
+.hero-banner-5-heading {
+  font-size: 5rem;
+  color: var(--color-white);
+}
+
+.hero-banner-5-heading span {
+  color: var(--color-secondary-4);
+}
+
+.hero-banner-5-sub-heading {
+  font-size: 2.5rem;
+  color: var(--color-primary-2);
+}
+
+.hero-banner-5-para {
+  font-size: 2rem;
+  color: var(--color-primary-1);
+  line-height: 1.5;
+}
+
+.hero-banner-5-btn {
+  /* background-color: var(--color-primary-10); */
+  border: 2px solid var(--color-secondary-4);
+}
